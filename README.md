@@ -25,3 +25,8 @@ let package = Package(
     ]
 )
 ```
+
+Swiftlint build phase:
+```
+"$SWIFTLINT" autocorrect --config ".swiftlint.auto.yml" && "$SWIFTLINT"
+```
