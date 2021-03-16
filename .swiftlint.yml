@@ -65,10 +65,14 @@ disabled_rules:
   - force_cast
   - force_try
   - nesting
-  - todo
   - identifier_name
   - prohibited_interface_builder
-  - switch_case_alignment
+
+switch_case_alignment:
+    indented_cases: true
+
+trailing_comma:
+    mandatory_comma: true
 
 function_body_length:
     warning: 50
