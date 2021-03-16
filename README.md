@@ -5,7 +5,7 @@ Shared SwiftLint config
 To include it, create a `.swiftlint.yml` with the following content:
 ```
 included:
-  - ProjectFolder
+  - <ProjectFolder>
 parent_config: https://raw.githubusercontent.com/SoftwareCountry/arcadia-swiftlint-config/main/.swiftlint.yml
 ```
 
@@ -19,8 +19,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ProjectName",
-            path: "ProjectName"
+            name: "<ProjectName>",
+            path: "<ProjectName>"
         )
     ]
 )
