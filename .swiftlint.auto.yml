@@ -1,0 +1,15 @@
+whitelist_rules:
+  - comma
+  - empty_parameters
+  - trailing_comma
+  - vertical_whitespace
+  - trailing_whitespace
+
+trailing_comma:
+  mandatory_comma: true
+
+vertical_whitespace:
+  max_empty_lines: 2
+
+included:
+  - <ProjectFolder>
