@@ -4,6 +4,8 @@ whitelist_rules:
   - trailing_comma
   - vertical_whitespace
   - trailing_whitespace
+  - opening_brace
+  - comment_spacing
 
 trailing_comma:
   mandatory_comma: true
