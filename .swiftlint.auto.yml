@@ -21,6 +21,7 @@ whitelist_rules:
   - legacy_constructor
   - empty_enum_arguments
   - strong_iboutlet
+  - trailing_semicolon
 
 trailing_comma:
   mandatory_comma: true
